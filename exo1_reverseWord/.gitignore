@@ -1,0 +1,80 @@
+# Fichiers/dossiers spécifiques à Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+.env/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# Configurations d'éditeur (ex. VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+
+# Fichiers de logs
+*.log
+
+# Fichiers de données temporaires
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*.swn
+
+# Fichiers de configuration spécifiques aux environnements
+.env
+*.env
+.env.local
+.env.*.local
+
+# Caches et dépendances de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Caches de distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Fichiers de packages et distributions
+*.egg
+*.whl
+
+# Notebooks Jupyter (output des cellules)
+.ipynb_checkpoints
+
+# Couverture de tests / rapports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# Fichiers générés par des outils de test
+*.mo
+*.pot
+
+# Rapport de tests unitaires / sortie de test
+test-results/
+coverage/
+.junit/
+*.xml
+
+# Dossiers de config / cache de profil utilisateur
+.mypy_cache/
+.dmypy.json
+.pyre/
